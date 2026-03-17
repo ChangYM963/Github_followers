@@ -231,7 +231,7 @@ class App:
 
         ttk.Label(search_bar, text="关键词").pack(side=tk.LEFT)
         ttk.Entry(search_bar, textvariable=self.keyword_var, width=32).pack(side=tk.LEFT, padx=(8, 12))
-        ttk.Label(search_bar, text="支持子串和缩写式模糊匹配，例如: wfs").pack(side=tk.LEFT)
+        ttk.Label(search_bar, text="支持子串和缩写式模糊匹配，例如: cym").pack(side=tk.LEFT)
 
         columns = ("login", "name", "url")
         self.tree = ttk.Treeview(container, columns=columns, show="headings", height=22)
