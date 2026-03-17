@@ -4,8 +4,8 @@
 
 例如：
 
-- 搜索 `wang` 可以匹配 `Wang Feisong`
-- 搜索 `wfs` 也可以匹配 `Wang Feisong`
+- 搜索 `Chang` 可以匹配 `Chang Yiming`
+- 搜索 `cym` 也可以匹配 `Chang Yiming`
 
 `wfs` 这类关键词之所以能命中，是因为程序除了普通子串匹配外，还支持按字母顺序的模糊匹配。
 
